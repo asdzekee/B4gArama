@@ -1,5 +1,5 @@
 # Ne işe yarar ?
-Belirtilen telefon numarasına günde 3 defa Birleşik Krallık lokasyonundan arama göndermeye yarar.
+Belirtilen telefon numarasına günde 3 defa Birleşik Krallık lokasyonundan arama gönderir.
 
 # Kurulum 
 
