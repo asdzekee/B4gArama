@@ -4,12 +4,11 @@ import hashlib
 import time
 import os
 
-# Rastgele bir 10 basamaklı sayı oluşturma ve MD5 hash
 asa = '123456789'
 gigk = ''.join(random.choice(asa) for i in range(10))
 md5 = hashlib.md5(gigk.encode()).hexdigest()[:16]
 
-# Başlık bilgileri
+
 clientsecret = 'lvc22mp3l1sfv6ujg83rd17btt'
 user_agent = 'Truecaller/12.34.8 (Android;8.1.2)'
 accept_encoding = 'gzip'
@@ -48,7 +47,7 @@ def print_banner():
     print("""
 ##############################################
 #                                            #
-#         👁️ BL4CKGORE ARAMA GÖNDERME 👁️       #
+#       👁️ BL4CKGORE ARAMA GÖNDERME 👁️      #
 #                                            #
 ##############################################
 """)
